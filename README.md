@@ -117,7 +117,7 @@ The project includes rich and colorful visualizations, such as:
 ## 🗂️ Project Structure
 battery-rul-prediction/
 
-![File Structure Diagram](assests/<img width="588" height="416" alt="image" src="https://github.com/user-attachments/assets/3cb46b06-49b4-47c3-971f-dd83436a5a68" />)
+<img width="588" height="416" alt="image" src="https://github.com/user-attachments/assets/3cb46b06-49b4-47c3-971f-dd83436a5a68" />
 
 ## 🎯 Key Outcomes
 - Accurate battery lifetime prediction
