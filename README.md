@@ -8,7 +8,7 @@
 
 ## 📂 Dataset
 **Source:** MathWorks Battery Degradation Dataset  
-**Platform:** MathWorks (MATLAB / Simulink battery data)
+**Platform:** [![Dataset]([https://img.shields.io/badge/📊-Dataset-blue](https://ssd.mathworks.com/supportfiles/predmaint/batterycyclelifeprediction/v2/batteryDischargeData.zip))]
 
 ### Description:
 - Battery aging and discharge data
