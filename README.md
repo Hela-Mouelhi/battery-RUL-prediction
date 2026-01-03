@@ -116,8 +116,18 @@ The project includes rich and colorful visualizations, such as:
 
 ## 🗂️ Project Structure
 battery-rul-prediction/
-
-<img width="588" height="416" alt="image" src="https://github.com/user-attachments/assets/3cb46b06-49b4-47c3-971f-dd83436a5a68" />
+│
+├── app.py # Flask application
+├── battery_lifetime_model.pkl # Trained ML model
+├── weibull_params.pkl # Weibull parameters
+│
+├── templates/
+│ └── index.html # Web interface
+│
+├── static/
+│ └── style.css # Styling
+│
+└── README.md # Project documentation
 
 ## 🎯 Key Outcomes
 - Accurate battery lifetime prediction
