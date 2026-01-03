@@ -116,7 +116,7 @@ The project includes rich and colorful visualizations, such as:
 
 ## 🗂️ Project Structure
 battery-rul-prediction/
-│
+
 ├── app.py                      # Flask application
 ├── battery_lifetime_model.pkl  # Trained ML model
 ├── weibull_params.pkl          # Weibull parameters
