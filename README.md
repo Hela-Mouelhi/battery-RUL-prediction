@@ -57,3 +57,88 @@
 
 ### 3️⃣ Remaining Useful Life (RUL) Estimation
 RUL is computed as:
+RUL = Predicted Cycle Life − Current Cycle
+- Ensures RUL ≥ 0
+- Gives an interpretable health indicator for users
+
+### 4️⃣ Weibull Reliability Analysis (Failure Probability)
+To estimate failure probability, a Weibull distribution is fitted on battery lifetime data.
+
+**Weibull Parameters:**
+- Shape (β) ≈ 3.35
+- Scale (η) ≈ 1144.69
+
+**Why Weibull?**
+- Widely used in reliability engineering
+- Models increasing failure rate due to aging
+- Well-suited for battery degradation behavior
+
+**Failure Probability Formula:**
+P_f(t) = 1 − e^−(t/η)^β
+
+Where:
+- `t` = number of cycles
+- `β` = shape parameter
+- `η` = scale parameter
+
+### 5️⃣ Visualization Techniques
+The project includes rich and colorful visualizations, such as:
+- Battery lifetime distribution
+- Weibull probability density function (PDF)
+- Weibull cumulative distribution function (CDF)
+- RUL vs cycle number
+- Failure probability vs cycles
+
+**These plots help interpret:**
+- Degradation trends
+- Reliability evolution
+- Risk of failure over time
+
+## 🌐 Web Application (Flask)
+**Features:**
+- User inputs:
+  - Mean dQ/dV
+  - Max dQ/dV
+  - Temperature
+  - Voltage
+  - Current cycle
+- Outputs:
+  - Predicted total lifetime
+  - Remaining Useful Life (RUL)
+  - Failure probability (%)
+
+**Tech Stack:**
+- **Backend:** Flask (Python)
+- **Frontend:** HTML, CSS
+- **Models:**
+  - Saved ML model (`.pkl`)
+  - Saved Weibull parameters (`.pkl`)
+
+## 🗂️ Project Structure
+battery-rul-prediction/
+│
+├── app.py # Flask application
+├── battery_lifetime_model.pkl # Trained ML model
+├── weibull_params.pkl # Weibull parameters
+│
+├── templates/
+│ └── index.html # Web interface
+│
+├── static/
+│ └── style.css # Styling
+│
+└── README.md # Project documentation
+
+## 🎯 Key Outcomes
+- Accurate battery lifetime prediction
+- Clear estimation of Remaining Useful Life
+- Probabilistic failure assessment
+- User-friendly and interpretable web interface
+- Strong combination of ML + reliability engineering
+
+## 🚀 Future Improvements
+- Add confidence intervals for predictions
+- Support multiple battery chemistries
+- Integrate real-time sensor data (IoT)
+- Deploy the web app to cloud platforms (Render / Railway)
+
