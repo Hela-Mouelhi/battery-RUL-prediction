@@ -115,25 +115,23 @@ The project includes rich and colorful visualizations, such as:
   - Saved Weibull parameters (`.pkl`)
 
 ## 🗂️ Project Structure
-battery-rul-prediction/
-
 
 ├── app.py 
 
 
-battery_lifetime_model.pkl 
+├── battery_lifetime_model.pkl 
 
 
-weibull_params.pkl 
+├── weibull_params.pkl 
 
 
-templates/
+├── templates/
     
-    ── index.html 
+    ├── index.html 
 
-static/
+├── static/
 
-   ── style.css 
+    ├── ─ style.css 
 
 
 ## 🎯 Key Outcomes
