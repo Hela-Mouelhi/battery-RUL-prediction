@@ -118,13 +118,22 @@ The project includes rich and colorful visualizations, such as:
 battery-rul-prediction/
 
 
-├── app.py # Flask application
+├── app.py 
+
 
 ├── battery_lifetime_model.pkl 
+
+
 ├── weibull_params.pkl 
+
+
 ├── templates/
+
     ── index.html 
+
+    
 ├── static/
+
    ── style.css 
 
 
