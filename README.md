@@ -120,17 +120,12 @@ battery-rul-prediction/
 
 ├── app.py # Flask application
 
-├── battery_lifetime_model.pkl # Trained ML model
-
-├── weibull_params.pkl # Weibull parameters
-
+├── battery_lifetime_model.pkl 
+├── weibull_params.pkl 
 ├── templates/
-
-│    ── index.html # Web interface
-
+    ── index.html 
 ├── static/
-
-│    ── style.css # Styling
+   ── style.css 
 
 
 ## 🎯 Key Outcomes
